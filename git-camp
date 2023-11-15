@@ -1,5 +1,9 @@
---> Git Concepts in Sequence:
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+								Git Commands in sequence while starting the git newly
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Certainly, here is a list of Git commands in a suggested sequence for teaching your team, starting with fundamental commands and gradually introducing more advanced concepts:
   	1. `git init`: Initialize a new Git repository.
   	2. `git clone`: Create a local copy of a remote repository.
@@ -31,9 +35,12 @@
 
 This sequence provides a logical order for introducing Git commands, starting with the basics of repository management and gradually moving into more advanced concepts like branching, merging, and rebasing. It's a structured way to help your team learn and understand Git effectively.
 
-------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+									Git Commands
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> General Info:
 	-> Branches:
 		-> Long Running - main, dev, prod, qa, etc.
@@ -302,4 +309,125 @@ husky???
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+									Other Usefull Commands
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+-> How to check your Git configuration:
+	-> git config -l
+
+-> How to setup your Git username:
+	-> git config --global user.name "Fabio"
+
+-> How to setup your Git user email:
+	-> git config --global user.email "signups@fabiopacifici.com"
+
+-> How to cache your login credentials in Git:
+	-> git config --global credential.helper cache
+
+-> How to initialize a Git repo:
+	-> git init
+
+-> How to add a file to the staging area in Git:
+	-> git add filename_here
+
+-> How to add all files in the staging area in Git
+	-> git add .
+
+-> How to add only certain files to the staging area in Git
+	-> git add fil*
+
+-> How to check a repository's status in Git:
+	-> git status
+
+-> How to commit changes in the editor in Git:
+	-> git commit
+
+-> How to commit changes with a message in Git:
+	-> git commit -m "your commit message here"
+
+-> How to see your commit history in Git: (shows the commit history for the current repository)
+	-> git log
+
+-> How to see your commit history including changes in Git: (shows the commit's history including all files and their changes)
+	-> git log -p
+	
+-> How to see a specific commit in Git:
+	-> git show commit-id
+
+-> How to see log stats in Git:
+	-> git log --stat
+
+-> How to see changes made before committing them using "diff" in Git:
+	-> git diff
+	-> git diff all_checks.py
+
+-> How to rename files in Git:
+	-> git mv oldfile newfile
+
+-> How to ignore files in Git:
+	-> Create a .gitignore file and commit it.
+
+-> How to revert unstaged changes in Git:
+	-> git checkout filename
+
+-> How to revert staged changes in Git:
+	-> git reset HEAD filename
+
+-> How to rollback the last commit in Git:
+	-> git revert HEAD
+
+-> How to rollback an old commit in Git:
+	-> git revert comit_id_here
+
+-> How to create a new branch in Git:
+	-> git branch branch_name
+	
+-> How to switch to a newly created branch in Git:
+	-> git checkout branch_name
+
+-> How to list branches in Git:
+	-> git branch
+
+-> How to merge two branches in Git:
+	-> git merge branch_name
+
+-> How to add a remote repository in Git
+	-> git add remote https://repo_here
+
+-> How to see remote URLs in Git:
+	-> git remote -v
+
+-> How to push changes to a remote repo in Git:
+	-> git push
+
+-> How to pull changes from a remote repo in Git:
+	-> git pull
+
+-> How to fetch remote repo changes in Git:
+	-> git fetch
+
+-> How to merge a remote repo with your local repo in Git:
+	-> git merge origin/main
+
+-> How to push a new branch to a remote repo in Git:
+	-> git push -u origin branch_name
+
+-> How to remove a remote branch in Git:
+	-> git push --delete origin branch_name_here
+
+-> How to use Git rebase:
+	-> git rebase branch_name_here
+
+-> How to force a push request in Git:
+	-> git push -f
+
+-> How to delete a branch in Git:
+	-> git branch -d branch_name
+
+
+
